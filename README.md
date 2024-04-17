@@ -62,7 +62,7 @@ A tkinter window like this will open.
 ## Workflow
 
 <p align="center">
-<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/" width="400" height="410">
+<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/data flow.jpg" width="400" height="410">
   <br>
  </p>
 
@@ -105,9 +105,30 @@ The accuracy rate of different classifiers obtained are shown below:
 ### Output
 The predicted labels are shown in the form of text as well as speech using the python text to speech conversion library, Pyttsx3.The system facilitates linguistic diversity by forming words from detected signs and converting them into Kannada and Hindi using the Google API, expanding accessibility and inclusivity.
 
+<p align="center">
+<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/outputsign.jpg" width="400" height="410">
+  <br>
+ </p>
 
 ### Reverse Sign Recognition
 Dual mode of communication is implemented. The spoken word is taken as input and the corresponding sign images are shown in sequence. Google speech API is used for this purpose.
+
+<p align="center">
+<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/reverse rec.jpg" width="400" height="410">
+  <br>
+ </p>
+
+ <p align="center">
+<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/reverse.jpg" width="400" height="410">
+  <br>
+ </p>
+
+ ### Word formation and conversion to local language
+ Detected signs were used to form the words using string operations. These words were then converted to Kannada using Google API. 
+ <p align="center">
+<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/wordform.jpg" width="400" height="410">
+  <br>
+ </p>
 
 ### Credits
 + [Bag of Visual Words (BOVW)](https://medium.com/@aybukeyalcinerr/bag-of-visual-words-bovw-db9500331b2f)
