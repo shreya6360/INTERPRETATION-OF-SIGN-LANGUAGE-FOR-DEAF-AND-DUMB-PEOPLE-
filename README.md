@@ -98,7 +98,8 @@ The accuracy rate of different classifiers obtained are shown below:
  </p>
 
 ### Output
-The predicted labels are shown in the form of text as well as speech using the python text to speech conversion library, Pyttsx3.
+The predicted labels are shown in the form of text as well as speech using the python text to speech conversion library, Pyttsx3.The system facilitates linguistic diversity by forming words from detected signs and converting them into Kannada and Hindi using the Google API, expanding accessibility and inclusivity.![image](https://github.com/shreya6360/INTERPRETATION-OF-SIGN-LANGUAGE-FOR-DEAF-AND-DUMB-PEOPLE-/assets/122684240/b5f23db1-0746-4774-8b8f-688b500e9e60)
+
 
 ### Reverse Sign Recognition
 Dual mode of communication is implemented. The spoken word is taken as input and the corresponding sign images are shown in sequence. Google speech API is used for this purpose.
