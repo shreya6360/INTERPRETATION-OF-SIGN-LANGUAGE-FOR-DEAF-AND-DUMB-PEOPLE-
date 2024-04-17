@@ -61,6 +61,11 @@ A tkinter window like this will open.
 
 ## Workflow
 
+<p align="center">
+<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/" width="400" height="410">
+  <br>
+ </p>
+
 ### Preprocessing
 Here 2 methods for preprocessing are used. First one is the background subtraction using an additive method, in which the first 30 frames are considered as background and any new object in the frame is then filtered out. Second one uses the skin segmentation concept, which is based on the extraction of skin color pixels of the user.
 
