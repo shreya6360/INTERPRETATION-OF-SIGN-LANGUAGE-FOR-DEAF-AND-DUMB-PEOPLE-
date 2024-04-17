@@ -62,7 +62,7 @@ A tkinter window like this will open.
 ## Workflow
 
 <p align="center">
-<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/data flow.png" width="400" height="410">
+<img align="center" src="https://github.com/shreya6360/Images/data flow.png" width="400" height="410">
   <br>
  </p>
 
